@@ -4,119 +4,50 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background='#292525'
+    android:background='#000'
     tools:context=".MainScreen">
 
-    <EditText
-        android:id="@+id/editTextTextPersonName22"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="508dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text=""
-        android:backgroundTint="#76f498"
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginEnd="148dp"
+        android:background="@drawable/challenged"
         app:layout_constraintEnd_toEndOf="@+id/textView20"
-        app:layout_constraintHorizontal_bias="0.416"
-        app:layout_constraintStart_toStartOf="@+id/textView20"
         app:layout_constraintTop_toTopOf="@+id/textView20" />
 
-    <EditText
-        android:id="@+id/editTextTextPersonName21"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="464dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text=""
-        android:backgroundTint="#76f498"
-        app:layout_constraintEnd_toEndOf="@+id/textView20"
-        app:layout_constraintHorizontal_bias="0.416"
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="340dp"
+        android:background="@drawable/boy2"
         app:layout_constraintStart_toStartOf="@+id/textView20"
-        app:layout_constraintTop_toTopOf="@+id/textView20" />
+        app:layout_constraintTop_toTopOf="@+id/textView20"
+        tools:srcCompat="@drawable/boy2" />
 
-    <EditText
-        android:id="@+id/editTextTextPersonName20"
+    <TextView
+        android:id="@+id/textView20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="420dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text=""
-        android:backgroundTint="#76f498"
-        app:layout_constraintEnd_toEndOf="@+id/textView20"
-        app:layout_constraintHorizontal_bias="0.416"
-        app:layout_constraintStart_toStartOf="@+id/textView20"
-        app:layout_constraintTop_toTopOf="@+id/textView20" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName19"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="376dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text=""
-        android:backgroundTint="#76f498"
-        app:layout_constraintEnd_toEndOf="@+id/textView20"
-        app:layout_constraintHorizontal_bias="0.416"
-        app:layout_constraintStart_toStartOf="@+id/textView20"
-        app:layout_constraintTop_toTopOf="@+id/textView20" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName17"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="132dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text=""
-        android:backgroundTint="#76f498"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName13"
-        app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName13" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName18"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="176dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text=""
-        android:backgroundTint="#76f498"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName13"
-        app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName13" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName16"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="88dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text=""
-        android:backgroundTint="#76f498"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName13"
-        app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName13" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName15"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text=""
-        android:backgroundTint="#76f498"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName13"
-        app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName13" />
+        android:text="Desear"
+        android:textColor='#c1aa4a'
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
 
     <ImageView
         android:id="@+id/imageView11"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_marginStart="148dp"
-        android:layout_marginTop="316dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="156dp"
         android:background="@drawable/boy2"
         app:layout_constraintStart_toStartOf="@+id/textView20"
         app:layout_constraintTop_toTopOf="@+id/textView20"
@@ -126,52 +57,140 @@
         android:id="@+id/imageView9"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_marginTop="56dp"
-        android:layout_marginEnd="144dp"
-        android:background="@drawable/girl4"
+        android:layout_marginTop="252dp"
+        android:layout_marginEnd="148dp"
+        android:background="@drawable/challenged"
         app:layout_constraintEnd_toEndOf="@+id/textView20"
-        app:layout_constraintTop_toTopOf="@+id/textView20"
-        tools:srcCompat="@drawable/girl4" />
+        app:layout_constraintTop_toTopOf="@+id/textView20" />
 
     <TextView
-        android:id="@+id/textView20"
+        android:id="@+id/textView16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Name"
-        android:textColor='#ffffff'
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="208dp"
+        android:text="1:29pm"
+        android:textColor='#c1aa4a'
+        app:layout_constraintEnd_toEndOf="@+id/textView20"
+        app:layout_constraintTop_toTopOf="@+id/textView20" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="212dp"
+        android:layout_marginTop="196dp"
+        android:text="1:32pm"
+        android:textColor='#c1aa4a'
+        app:layout_constraintStart_toStartOf="@+id/textView20"
+        app:layout_constraintTop_toTopOf="@+id/textView20" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="208dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="128dp"
+        android:text="Whats your diet? I wanna know cause it's been 2 weeks and my weight is still the same."
+        android:textColor='#64a776'
+        app:layout_constraintEnd_toEndOf="@+id/textView20"
+        app:layout_constraintTop_toTopOf="@+id/textView20" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="144dp"
+        android:background="@drawable/challenged"
+        app:layout_constraintEnd_toEndOf="@+id/textView20"
+        app:layout_constraintTop_toTopOf="@+id/textView20" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="208dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="224dp"
+        android:text="Hmm just eat 2 boiled eggs everyday. 1 for breakfast and 1 after your workout."
+        android:textColor='#64a776'
+        app:layout_constraintStart_toStartOf="@+id/textView20"
+        app:layout_constraintTop_toTopOf="@+id/textView20" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="292dp"
+        android:layout_marginEnd="212dp"
+        android:text="1:32pm"
+        android:textColor='#c1aa4a'
+        app:layout_constraintEnd_toEndOf="@+id/textView20"
+        app:layout_constraintTop_toTopOf="@+id/textView20" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="208dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="316dp"
+        android:text="Really? is that the only food that you eat everyday?"
+        android:textColor='#64a776'
+        app:layout_constraintEnd_toEndOf="@+id/textView20"
+        app:layout_constraintTop_toTopOf="@+id/textView20" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="212dp"
+        android:layout_marginTop="380dp"
+        android:text="1:33pm"
+        android:textColor='#c1aa4a'
+        app:layout_constraintStart_toStartOf="@+id/textView20"
+        app:layout_constraintTop_toTopOf="@+id/textView20" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="218dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="404dp"
+        android:text="No HAHAHA, change your breakfast to 1 boiled egg and then for lunch eat lean meat then after you work out eat another boiled egg and for dinner eat lean meat again."
+        android:textColor='#64a776'
+        app:layout_constraintStart_toStartOf="@+id/textView20"
+        app:layout_constraintTop_toTopOf="@+id/textView20" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="208dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="540dp"
+        android:text="Ohhh ok i'll try that and see if I will lose some weight after 2 weeks."
+        android:textColor='#64a776'
+        app:layout_constraintEnd_toEndOf="@+id/textView20"
+        app:layout_constraintTop_toTopOf="@+id/textView20" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="520dp"
+        android:layout_marginEnd="208dp"
+        android:text="1:34pm"
+        android:textColor='#c1aa4a'
+        app:layout_constraintEnd_toEndOf="@+id/textView20"
+        app:layout_constraintTop_toTopOf="@+id/textView20" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#3c3939"
+        android:text="New Message"
+        android:textColor='#c1aa4a'
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.022" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="72dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text=""
-        android:backgroundTint="#76f498"
-        app:layout_constraintEnd_toEndOf="@+id/textView20"
-        app:layout_constraintHorizontal_bias="0.583"
-        app:layout_constraintStart_toStartOf="@+id/textView20"
-        app:layout_constraintTop_toTopOf="@+id/textView20" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="332dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text=""
-        android:backgroundTint="#76f498"
-        app:layout_constraintEnd_toEndOf="@+id/textView20"
-        app:layout_constraintHorizontal_bias="0.421"
-        app:layout_constraintStart_toStartOf="@+id/textView20"
-        app:layout_constraintTop_toTopOf="@+id/textView20" />
+        app:layout_constraintVertical_bias="0.942" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

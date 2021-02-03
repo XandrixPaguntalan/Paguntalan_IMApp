@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background='#292525'
+    android:background='#000'
     tools:context=".RegisterScreen">
 
     <TextView
@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:text="Register"
-        android:textColor='#ffffff'
+        android:textColor='#fff'
         android:textSize='30sp'
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -27,7 +27,7 @@
         android:layout_marginTop="44dp"
         android:layout_marginEnd="56dp"
         android:text="E-mail Address"
-        android:textColor='#ffffff'
+        android:textColor='#fff'
         app:layout_constraintEnd_toEndOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -37,7 +37,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
         android:text="User Name"
-        android:textColor='#ffffff'
+        android:textColor='#fff'
         app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName9"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/textView5"
@@ -49,7 +49,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="116dp"
         android:text="Password"
-        android:textColor='#ffffff'
+        android:textColor='#fff'
         app:layout_constraintStart_toStartOf="@+id/textView6"
         app:layout_constraintTop_toTopOf="@+id/textView6" />
 
@@ -59,45 +59,45 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
         android:text="Confirm Password"
-        android:textColor='#ffffff'
+        android:textColor='#fff'
         app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName9"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/textView8"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName8" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#76f498"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="User Name"
-        android:textColor='#ffffff'
-        app:layout_constraintStart_toStartOf="@+id/textView5"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
-
-    <EditText
         android:id="@+id/editTextTextPersonName9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#76f498"
+        android:backgroundTint="#64a776"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="E-mail Address"
-        android:textColor='#ffffff'
+        android:textColor='#64a776'
         app:layout_constraintStart_toStartOf="@+id/textView5"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#64a776"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="User Name"
+        android:textColor='#64a776'
+        app:layout_constraintStart_toStartOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
     <EditText
         android:id="@+id/editTextTextPersonName7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#76f498"
+        android:backgroundTint="#64a776"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Confirm Password"
-        android:textColor='#ffffff'
+        android:textColor='#64a776'
         app:layout_constraintStart_toStartOf="@+id/textView8"
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
@@ -105,11 +105,11 @@
         android:id="@+id/editTextTextPersonName8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#76f498"
+        android:backgroundTint="#64a776"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Password"
-        android:textColor='#ffffff'
+        android:textColor='#64a776'
         app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName6"
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
 

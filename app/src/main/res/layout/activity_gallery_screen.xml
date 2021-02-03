@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background='#292525'
+    android:background='#000'
     tools:context=".GalleryScreen">
 
     <TextView
@@ -13,7 +13,7 @@
         android:layout_height="44dp"
         android:layout_marginTop="24dp"
         android:text="Gallery"
-        android:textColor='#ffffff'
+        android:textColor='#c1aa4a'
         android:textSize='30sp'
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
@@ -24,37 +24,37 @@
         android:id="@+id/imageView29"
         android:layout_width="120dp"
         android:layout_height="120dp"
-        android:background="@drawable/calcu6"
+        android:background="@drawable/workit2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/imageView30"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView28"
         app:layout_constraintTop_toBottomOf="@+id/imageView26"
-        tools:srcCompat="@drawable/calcu6" />
+         />
 
     <ImageView
         android:id="@+id/imageView28"
         android:layout_width="120dp"
         android:layout_height="120dp"
-        android:background='@drawable/calcu8'
+        android:background='@drawable/workit'
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/imageView29"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView25"
-        tools:srcCompat="@drawable/calcu8" />
+         />
 
     <ImageView
         android:id="@+id/imageView30"
         android:layout_width="120dp"
         android:layout_height="120dp"
-        android:background='@drawable/calcu9'
+        android:background='@drawable/workit3'
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView29"
         app:layout_constraintTop_toBottomOf="@+id/imageView27"
-        tools:srcCompat="@drawable/calcu9" />
+         />
 
     <ImageView
         android:id="@+id/imageView26"
@@ -78,19 +78,18 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView22"
-        tools:srcCompat="@drawable/boy2" />
+        />
 
     <ImageView
         android:id="@+id/imageView27"
         android:layout_width="120dp"
         android:layout_height="120dp"
-        android:background='@drawable/calcu7'
+        android:background="@drawable/challenged"
         app:layout_constraintBottom_toTopOf="@+id/imageView30"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView26"
-        app:layout_constraintTop_toBottomOf="@+id/imageView24"
-        tools:srcCompat="@drawable/calcu7" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView24" />
 
     <ImageView
         android:id="@+id/imageView23"
@@ -102,7 +101,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView22"
         app:layout_constraintTop_toBottomOf="@+id/imageView20"
-        tools:srcCompat="@drawable/boy" />
+         />
 
     <ImageView
         android:id="@+id/imageView22"
@@ -114,7 +113,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView19"
-        tools:srcCompat="@drawable/girl" />
+         />
 
     <ImageView
         android:id="@+id/imageView24"
@@ -126,7 +125,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView23"
         app:layout_constraintTop_toBottomOf="@+id/imageView21"
-        tools:srcCompat="@drawable/girl2" />
+        />
 
     <ImageView
         android:id="@+id/imageView21"
